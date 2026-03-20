@@ -1,0 +1,36 @@
+# Dataset files
+data/*.csv
+data/*.json
+
+# Saved model directories
+bart-multitask-finetuned/
+distilbart-multitask-finetuned/
+pegasus-multitask-finetuned/
+t5-multitask-finetuned/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+report.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
